@@ -14,7 +14,7 @@ function ChessBoard() {
     ];
 
     const columnLetters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
-    const rowNumbers = ['1', '2', '3', '4', '5', '6', '7', '8'];
+    const rowNumbers = ['8', '7', '6', '5', '4', '3', '2', '1'];
 
     return (
         <div className='left'>
