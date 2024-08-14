@@ -1,9 +1,9 @@
 import './App.css'
-import ChessRow from './components/ChessRow'
+import ChessBoard from './components/ChessBoard'
 
 function App() {
   return (
-    <ChessRow/>
+    <ChessBoard/>
   );
 }
 
