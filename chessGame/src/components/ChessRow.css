@@ -2,3 +2,13 @@
     display: flex;
     flex-direction: row;
 }
+
+.ChessRow:nth-child(even) .square:nth-child(odd),
+.ChessRow:nth-child(odd) .square:nth-child(even) {
+  background-color: rgb(143, 43, 43);
+}
+
+.ChessRow:nth-child(even) .square:nth-child(even),
+.ChessRow:nth-child(odd) .square:nth-child(odd) {
+  background-color: white;
+}
