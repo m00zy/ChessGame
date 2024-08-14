@@ -1,3 +1,5 @@
+import './Square.css';
+
 function Square({ piece }){
     return (
       <div className="square">
