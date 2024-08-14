@@ -1,4 +1,4 @@
-import './Square.css';
+import '../stylesheets/Square.css';
 
 function Square({ piece }){
     return (

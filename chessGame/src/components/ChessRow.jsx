@@ -1,5 +1,5 @@
 import Square from './Square';
-import './ChessRow.css';
+import '../stylesheets/ChessRow.css';
 
 function ChessRow ( {rowPieces} ) {
     return (
