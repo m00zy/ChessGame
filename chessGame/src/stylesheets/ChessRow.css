@@ -5,10 +5,10 @@
 
 .ChessRow:nth-child(even) .square:nth-child(odd),
 .ChessRow:nth-child(odd) .square:nth-child(even) {
-  background-color: rgb(143, 43, 43);
+  background-color: rgb(20, 141, 38);
 }
 
 .ChessRow:nth-child(even) .square:nth-child(even),
 .ChessRow:nth-child(odd) .square:nth-child(odd) {
-  background-color: white;
+  background-color: rgb(251, 248, 235);
 }

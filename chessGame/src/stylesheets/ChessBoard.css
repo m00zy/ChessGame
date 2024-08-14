@@ -1,4 +1,31 @@
-.ChessBoard {
+.board {
     display: flex;
     flex-direction: column;
+    border: 5px double rgb(222, 214, 214);
+}
+
+.label {
+    color: rgb(20, 141, 38);
+    font-size: 20px;
+}
+
+.column-labels {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px
+}
+
+/* Too hard coded, should fix at some point */
+
+.row-labels {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-top: 40px;
+    gap: 67px;
+
+}
+
+.left {
+    display: flex;
 }
