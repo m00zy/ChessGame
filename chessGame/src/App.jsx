@@ -1,9 +1,10 @@
 import './App.css'
+import Square from './components/Square'
 
-export default function Square({ piece }){
+function App() {
   return (
-    <div className="square">
-      {piece}
-    </div>
+    <Square piece='J'/>
   );
 }
+
+export default App;
