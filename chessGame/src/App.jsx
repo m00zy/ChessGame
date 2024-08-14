@@ -1,9 +1,9 @@
 import './App.css'
 
-export default function Square(){
+export default function Square({ piece }){
   return (
     <div className="square">
-      1
+      {piece}
     </div>
   );
 }
