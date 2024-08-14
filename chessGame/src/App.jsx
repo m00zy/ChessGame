@@ -1,9 +1,9 @@
 import './App.css'
-import Square from './components/Square'
+import ChessRow from './components/ChessRow'
 
 function App() {
   return (
-    <Square piece='J'/>
+    <ChessRow piece='K'/>
   );
 }
 
