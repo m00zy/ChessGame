@@ -1,5 +1,5 @@
-import ChessRow from './ChessRow'
-import './ChessBoard.css'
+import ChessRow from './ChessRow';
+import './ChessBoard.css';
 
 function ChessBoard() {
     const chessGrid = [
