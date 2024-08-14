@@ -14,3 +14,7 @@
   .white-piece {
     filter: invert(1);
   }
+
+  .white-piece .black-piece {
+    cursor: grab;
+  }

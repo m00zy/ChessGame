@@ -6,6 +6,8 @@ import n from '../assets/pieces/N.png';
 import r from '../assets/pieces/R.png';
 import p from '../assets/pieces/P.png';
 
+import Draggable from 'react-draggable';
+
 function Square({ piece }){
 
   const pieceImages = {
@@ -22,7 +24,9 @@ function Square({ piece }){
 
     return (
       <div className="square">
-        <img src={pieceImages[pieceType]} alt={piece} className={pieceColor}/>
+        <Draggable>
+          <img src={pieceImages[pieceType]} alt={piece} className={pieceColor}/>
+        </Draggable>
       </div>
     );
   }
