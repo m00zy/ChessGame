@@ -1,10 +1,15 @@
 import Square from './Square';
 import './ChessRow.css'
 
-function ChessRow ( { piece }) {
+function ChessRow () {
+    const firstRow = ['♖', '♘', '♗', '♔', '♕', '♗', '♘', '♖'];
     return (
         <div className='ChessRow'>
-            <Square piece='K'/><Square piece='K'/><Square piece='K' />
+            {
+                firstRow.map((piece) => {
+                    return <Square piece={piece} />
+                })
+            }
         </div>
     );
 }
